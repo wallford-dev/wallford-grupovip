@@ -9,7 +9,7 @@
      O HTML tem o mesmo href estático como reserva (sem JS). Se mudar aqui,
      mude também no HTML (ou deixe: este script reescreve todos os [data-cta]).
      ------------------------------------------------------------------ */
-  var LINK_GRUPO = 'https://chat.whatsapp.com/JYrf16nmzNQALrfnWntqYt?s=sw&p=i&mlu=4&ilr=4';
+  var LINK_GRUPO = 'https://chat.whatsapp.com/F68DB6NoHhM2HJocgtbCv5';
   var UTM = {};
 
   var raiz = document.documentElement;
