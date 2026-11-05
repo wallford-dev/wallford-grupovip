@@ -1043,3 +1043,9 @@ a { color: inherit; }
   .pre, .pre * { opacity: 1 !important; transform: none !important; }
   .barra { display: none !important; }
 }
+
+/* Aviso de autorização de contato (opt-in): posicionado abaixo do texto, sem ocupar espaço nem mover nada */
+.hero__micro, .fechamento__micro { position: relative; }
+.wf-optin { position: absolute; left: 0; top: 100%; width: min(46ch, 100%); margin-top: 8px; font-size: 11px; line-height: 1.45; opacity: .7; text-wrap: pretty; }
+@media (max-width: 1023px) { .hero__micro .wf-optin { position: static; display: block; margin-top: 8px; } }
+.fechamento__micro .wf-optin { left: 50%; transform: translateX(-50%); width: min(46ch, 92vw); text-align: center; }
